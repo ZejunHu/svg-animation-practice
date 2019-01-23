@@ -55,7 +55,6 @@
 	// build scene
 	var scene = new ScrollMagic.Scene({triggerElement: "#scene", triggerHook: "onLeave", duration: 2000, tweenChanges: true})
 					.setTween(tween)
-					.addIndicators() // add indicators (requires plugin)
                     .addTo(controller)
                     .setPin("#scene");
     
