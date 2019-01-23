@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    width: 60%;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+svg#svg_1 {
+    border-bottom: 3px solid #051552;
+}
